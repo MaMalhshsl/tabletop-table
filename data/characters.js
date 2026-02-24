@@ -1,0 +1,40 @@
+export const characterTemplates = {
+  1: {
+    name: "Arin Eisenfaust",
+    role: "Krieger",
+    markerId: 1,
+    hp: 18,
+    maxHp: 18,
+    atk: 6,
+    def: 3,
+    move: 4,
+    range: 1,
+    color: "#b43a3a",
+  },
+  5: {
+    name: "Lyra Falkenauge",
+    role: "Fernkämpferin",
+    markerId: 5,
+    hp: 12,
+    maxHp: 12,
+    atk: 5,
+    def: 2,
+    move: 5,
+    range: 4,
+    color: "#4c8ad9",
+  },
+  17: {
+    name: "Seren Flammenzunge",
+    role: "Magier",
+    markerId: 17,
+    hp: 10,
+    maxHp: 10,
+    atk: 7,
+    def: 1,
+    move: 4,
+    range: 3,
+    color: "#c763d8",
+  },
+};
+
+export const initialCharacters = [];
